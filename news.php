@@ -7,18 +7,7 @@
 </head>
 
 <header>
-	<div id="header">
-		<img id="header_image" src="images/Photo_de_Lattre.jpg" alt="photo de lattre">
-	</div>
-
-	<nav id="navlist">
-		<ul>
-			<li class="nav"><a href="index.html">Présentation</a></li>
-			<li class="nav"><a href="news.html">Actualités</a></li>
-			<li class="nav"><a href="register.html">Inscription</a></li>
-			<li class="nav"><a href="contact.html">Contact</a></li>
-		</ul>
-	</nav>
+	<?php include("header.php"); ?>
 </header>
 
 <body>
@@ -32,10 +21,5 @@
 </body>
 
 <footer>
-	<p>Certains droits réservés</p>
-
-	<div id="footer_link">
-		<a href="index.html">Mentions légales - </a>
-		<a href="index.html">Plan du site</a>
-	</div>
+	<?php include("footer.php"); ?>
 </footer>
