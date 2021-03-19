@@ -56,6 +56,9 @@
 					</p>
 				</form>
 			<?php
+
+			
+
         } else
 		{
 			//Verifie si il n'y a pas d'erreur
