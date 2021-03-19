@@ -107,6 +107,19 @@ body
 	flex-direction: column;
 }
 
+#register_error
+{
+	margin-left: 170px;
+
+	color: red;
+}
+
+#register_success
+{
+	margin-left: 170px;
+	font-size: 20px;
+}
+
 footer
 {
 	display: flex;
