@@ -12,7 +12,7 @@
 
 <body>
 	<?php
-		//Si recoit une erreur(GET) ou ne recoit pas une des données du formulaire(POST), affiche le formulaire aaa
+		//Si recoit une erreur(GET) ou ne recoit pas une des données du formulaire(POST), affiche le formulaire
 		$error = null;
 		if(isset($_GET['error'])) $error = str_replace('_', ' ', $_GET['error']);
 
@@ -97,7 +97,7 @@
 				$sql = "INSERT INTO user(nom, prenom, password, mail, phone) 
 				VALUES('$nom', 
 				'$prenom', 
-				AES_ENCRYPT('$password', 'gVkYp2s5v8y/B?E('), 
+				AES_ENCRYPT('$password', 'gVkYp2s5v8yoBMEh'), 
 				'$mail', 
 				'$tel')";
 
