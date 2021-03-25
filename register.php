@@ -12,7 +12,7 @@
 
 <body>
 	<?php
-		//Si recoit une erreur(GET) ou ne recoit pas une des données du formulaire(POST), affiche le formulaire 
+		//Si recoit une erreur(GET) ou ne recoit pas une des données du formulaire(POST), affiche le formulaire aaa
 		$error = null;
 		if(isset($_GET['error'])) $error = str_replace('_', ' ', $_GET['error']);
 
