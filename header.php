@@ -8,5 +8,6 @@
 		<li class="nav"><a href="news.php">Actualités</a></li>
 		<li class="nav"><a href="register.php">Inscription</a></li>
 		<li class="nav"><a href="contact.php">Contact</a></li>
+		<li class="nav"><a href="temperature.php">Temperature</a></li>
 	</ul>
 </nav>

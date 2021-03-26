@@ -94,7 +94,6 @@
 			}
 
 			//Enregistrement du message dans un fichier
-			//$name = date("Y-m-d H:i:s") . ".txt";
 			$file = fopen("contact/" . $nom . ".txt", "a+");
 
 			fputs($file, "-------- Le " . date("Y-m-d") . " à " . date("H:i:s") . " --------\r\n\r\n" .
