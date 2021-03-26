@@ -35,7 +35,7 @@
                 //Enregistrement dans un fichier
                 $file = fopen("temperature.txt", "a+");
 
-                fputs($file, "Temp: " $buffer);
+                fputs($file, "Temp: " . $buffer);
 
                 fclose($file);
 
@@ -50,7 +50,7 @@
 				$bdd = new PDO("mysql:host=$host;dbname=$base", $user, $password, $options);
 
                 //Enregistrement dans la base de donnée
-                $sql = "INSERT INTO contact(date, T_LM35) VALUES ('date("Y-m-d H:i:s")', '$buffer')";
+                $sql = "INSERT INTO contact(date, T_LM35) VALUES ('" . date("Y-m-d H:i:s") . "', '$buffer')";
 
 				$bdd->query($sql);
 				$bdd->prepare($sql);
